@@ -120,11 +120,11 @@ const LoginSignup = () => {
             <h3>Register</h3>
           <div className="Logininputs">
           <div className="Loginusername">
-            <Image className="person" src="person.png"  layout="fill" alt=""/>
+            <Image className="person" src="person.png"  width={20} height={21} alt=""/>
             <input id="name1" name="name1" type="text" />
             </div>
             <div className="Loginpassword">
-            <Image className="password" src="password.png" layout="fill" alt=""/>
+            <Image className="password" src="password.png" width={19} height={22} alt=""/>
             <input type="password" id="password1" name="password1"/>
             </div>
          </div>
